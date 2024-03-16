@@ -31,4 +31,3 @@ def crawl():
         yield Tonies(**data)
 
 crawl()
-
