@@ -13,7 +13,7 @@
     <p>{{ Jsondic[0].description | safe }}</p> 
     
     {%for i in Jsondic[1]%}
-    <p>{{i.titles}}</p>
+    <div class="titles"><p>{{i.titles}}</p></div>
     {%endfor%}
 
     <p>{{Jsondic[0].runtime}}</p>
