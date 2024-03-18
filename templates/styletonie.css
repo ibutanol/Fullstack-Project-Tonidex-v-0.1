@@ -1,24 +1,28 @@
 body{
-
+    background-color: #1F2937;
 }
-.title{
 
+.title {
+    font-family: Arial, sans-serif;
+    background-color: #1F2937;
 }
+
 .figure{
-
+    background-color: #1F2937;
 }
-.description{
 
+.description{
+    background-color: #1F2937;
 }
 
 .titles{
-
+    background-color: #1F2937;
 }
 
 .runtime{
-
+    background-color: #1F2937;
 }
 
 .image{
-    
+    background-color: #1F2937;
 }
