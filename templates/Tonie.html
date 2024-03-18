@@ -8,16 +8,16 @@
     <title>Tonie</title>
 </head>
 <body>
-    <h3>{{Jsondic[0].title}}</h3>
-    <h2>{{Jsondic[0].figure}}</h2>
-    <p>{{ Jsondic[0].description | safe }}</p> 
+    <div class="title"></div><h3>{{Jsondic[0].title}}</h3></div>
+    <div class="figure"></div><h2>{{Jsondic[0].figure}}</h2></div>
+    <div class="description"></div><p>{{ Jsondic[0].description | safe }}</p></div>
     
     {%for i in Jsondic[1]%}
     <div class="titles"><p>{{i.titles}}</p></div>
     {%endfor%}
 
-    <p>{{Jsondic[0].runtime}}</p>
+    <div class="runtime"><p>{{Jsondic[0].runtime}}</p></div>
 
-    <img src="{{Jsondic[0].image}}">
+    <div class="image"></div><img src="{{Jsondic[0].image}}"></div>
 </body>
 </html>
