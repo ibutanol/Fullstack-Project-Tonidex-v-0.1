@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styletonies.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
     <title>Tonies</title>
 </head>
 <body>
     {% for i in Jsondic%}
-    <h3>{{i["title"]}}</h3>
-    <p>{{i["figure"]}}</p>
-    <img src="{{i.image}}">
+    <div class="karte">
+        <div class="title"><h3>{{i["title"]}}</h3></div>
+        <div class="figure"><p>{{i["figure"]}}</p></div>
+        <div class="image"><img src="{{i.image}}"></div>
+    </div>
     {%endfor%}
 </body>
 </html>
