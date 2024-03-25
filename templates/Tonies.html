@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
     <title>Tonies</title>
 </head>
 <body>
     {% for i in Jsondic%}
-    <div class="karte">
-        <div class="title"><h3>{{i["title"]}}</h3></div>
-        <div class="figure"><p>{{i["figure"]}}</p></div>
-        <div class="image"><img src="{{i.image}}"></div>
-    </div>
+        <div class="card3d">
+            <div class="title"><h3>{{i["title"]}}</h3></div>
+            <div class="figure"><p>{{i["figure"]}}</p></div>
+            <div class="image"><img src="{{i.image}}"></div>
+        </div>
+        <div class="card3d"><img src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-250-plains.png" alt="Plains" width="180"></div>
+        <div class="card3d"><img src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-251-island.png" alt="Island" width="180"></div>
+        <div class="card3d"><img src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-252-swamp.png" alt="Swamp" width="180"></div>
+        <div class="card3d"><img src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-253-mountain.png" alt="Mountain" width="180"></div>
+        <div class="card3d"><img src="https://nelsoncodepen.s3.eu-west-2.amazonaws.com/thb-254-forest.png" alt="Forest" width="180"></div>
     {%endfor%}
 </body>
 </html>
