@@ -4,8 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: rgb(84,92,97);
-  background: radial-gradient(circle, rgba(84,92,97,1) 0%, rgba(23,41,48,1) 100%); 
+  background: rgb(255, 255, 255); 
   flex-wrap: wrap;
   overflow-x: hidden;
 }
