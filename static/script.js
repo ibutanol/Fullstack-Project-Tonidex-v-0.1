@@ -18,7 +18,7 @@ function map(val, minA, maxA, minB, maxB) {
     // Wertemapping für Rotation und Helligkeit
     let rotateY = map(mouseX, 0, width, -25, 25);
     let rotateX = map(mouseY, 0, height, 25, -25);
-    let brightness = map(mouseY, 0, height, 1.5, 0.5);
+    let brightness = map(mouseY, 0, height, 1.1, 0.5);
   
     // Anwendung der Transformationen auf das Bild
     img.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;

@@ -4,11 +4,17 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  background: rgb(255, 255, 255); 
+  background: rgb(254, 254, 254); 
   flex-wrap: wrap;
   overflow-x: hidden;
 }
 
+img{
+  border-radius: 8px;
+  border: 1px solid #a0a0a0;
+  background: rgb(228, 206, 206);
+
+}
 .card3d {
   margin: 4px;
   transform: scale(1);
@@ -24,3 +30,8 @@ body {
 .card3d img {
   transition: all 250ms ease-out;
 }
+
+
+/* https://codepen.io/designfenix/pen/RwKPapa
+
+*/
