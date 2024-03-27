@@ -10,10 +10,12 @@
 <body>
     {% for i in Jsondic%}
         <div class="container">
-            <!--<div class="title"><h3>{{i["title"]}}</h3></div>-->
-            <div class="figure"><p>{{i["figure"]}}</p></div>
-            <div class="card3d">
-                <div class="image"><img src="{{i.image}}" alt="tonie" width="200"></div>
+            <div class="karte">
+                <!--<div class="title"><h3>{{i["title"]}}</h3></div>-->
+                <div class="figure"><p>{{i["figure"]}}</p></div>
+                <div class="card3d">
+                    <div class="image"><img src="{{i.image}}" alt="tonie" width="200"></div>
+                </div>
             </div>
         </div>
         <script src="{{ url_for('static', filename='script.js') }}"></script>
