@@ -16,3 +16,6 @@ and here comes the clue.
         <li><strong>Click to Buy or Refer:</strong> Directly purchase Tonies with a click or use referral links to the official website for more options.</li>
         <li><i><strong>More Features Coming Soon:</strong> Stay tuned for additional features to enhance your Tonies experience.</i></li>
     </ul>
+
+
+![2024-03-29 11_58_15-Tonies](https://github.com/ibutanol/Fullstack-Project-Tonidex-v-0.1/assets/109903683/ca6a6e7e-f54e-443e-8e6d-cd47b60d4f52)
