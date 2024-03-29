@@ -37,6 +37,7 @@ img{
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
+
 .card3d {
   margin: 4px;
   transform: scale(1);
@@ -57,3 +58,65 @@ img{
 /* https://codepen.io/designfenix/pen/RwKPapa
 
 */
+.buybutton {
+background-color: rgb(156, 206, 156);
+border-radius: 100px;
+height: 15px;
+}
+.wishlistbutton{
+  background-color: rgb(156, 192, 206);
+  border-radius: 100px;
+  height: 15px; 
+
+}
+.greybutton{
+  background-color: rgb(247, 139, 139);
+  border-radius: 100px;
+  height: 15px;
+
+}
+
+.buttons {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .buybutton:hover::after {
+  content: "kaufen";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 45, 45);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.greybutton:hover::after {
+  content: "Haben oder Haben :)";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 45, 45);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.wishlistbutton:hover::after {
+  content: "Wunschliste hinzufügen";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 45, 45);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
