@@ -8,7 +8,6 @@ and here comes the clue.
 <b>Introducing TONIEDEX -</b> 
 <i>an app designed to help you manage your Tonies collection with ease.</i>
 
-![Uploading Untitleddesign-ezgif.com-video-to-gif-converter.gif…]()
 
 <h2>Features:</h2>
     <ul>
@@ -22,3 +21,4 @@ and here comes the clue.
 
 
 
+![Uploading Untitleddesign-ezgif.com-video-to-gif-converter.gif…]()
