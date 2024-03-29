@@ -16,6 +16,7 @@
                     <button class="buybutton" role="button"></button>
                     <button class="greybutton" role="button"></button>
                     <button class="wishlistbutton" role="button"></button>
+                    <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="infobutton" title="Info">&#8505;</a>
                 </div>
                 <div class="figure"><h4>{{i["figure"]}}</h4></div>
                 <div class="image"><img src="{{i.image}}" alt="tonie" width="200"></div>

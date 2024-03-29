@@ -16,6 +16,7 @@ body {
   gap: 50px;
   margin: 20px;
   height: 300px;
+
 }
 
 .karte {
@@ -24,6 +25,7 @@ body {
   margin: 5px;
   align-items: center;
   transition: all 100ms ease-out;
+  margin-left: 4px;
 }
 
 .figure {
@@ -89,6 +91,18 @@ height: 15px;
   gap: 10px;
 }
 
+.infobutton {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  background-color: #f7d0d0;
+  color: #333;
+  border-radius: 15px;
+  padding: 5px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
 .buybutton:hover::after {
   content: "kaufen";
   position: absolute;
@@ -130,3 +144,4 @@ height: 15px;
   transform: translateX(-50%) scale(1); 
   white-space: nowrap;
 }
+
