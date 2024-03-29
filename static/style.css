@@ -18,12 +18,12 @@ body {
   height: 300px;
   background: #f6ecec;
   border-radius: 5px;
-
 }
 .karte{
   background: #f8f1ec;
   border-radius: 20px;
   margin: 5px;
+  align-items: center;
 }
 
 .figure{
