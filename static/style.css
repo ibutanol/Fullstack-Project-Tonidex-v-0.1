@@ -17,15 +17,18 @@ body {
   margin: 20px;
   height: 300px;
   background: #f6ecec;
-  border-radius: 10px;
+  border-radius: 5px;
 
+}
+.karte{
+  background: #f8f1ec;
+  border-radius: 20px;
+  margin: 5px;
 }
 
 .figure{
   background: #f6ecec;
-  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-  transform: translateY(5px);
-  box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+
 }
 img{
   background: #f6ecec;
@@ -34,9 +37,6 @@ img{
   box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
-.karte{
-  background: #bd9c9c;
-}
 .card3d {
   margin: 4px;
   transform: scale(1);
