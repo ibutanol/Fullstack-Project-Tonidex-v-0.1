@@ -8,6 +8,7 @@ and here comes the clue.
 <b>Introducing TONIEDEX -</b> 
 <i>an app designed to help you manage your Tonies collection with ease.</i>
 
+![Untitleddesign-ezgif com-video-to-gif-converter](https://github.com/ibutanol/Fullstack-Project-Tonidex-v-0.1/assets/109903683/4771bd66-6c87-408b-879c-ef652b0b82c4)
 
 <h2>Features:</h2>
     <ul>
@@ -20,5 +21,3 @@ and here comes the clue.
     </ul>
 
 
-
-![Untitled-design](https://github.com/ibutanol/Fullstack-Project-Tonidex-v-0.1/assets/109903683/feb5b376-1e14-4816-8efe-f57c8a0b6914)
