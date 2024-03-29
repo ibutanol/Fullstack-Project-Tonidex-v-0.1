@@ -7,6 +7,9 @@ and here comes the clue.
 
 <b>Introducing TONIEDEX -</b> 
 <i>an app designed to help you manage your Tonies collection with ease.</i>
+
+![Uploading Untitleddesign-ezgif.com-video-to-gif-converter.gif…]()
+
 <h2>Features:</h2>
     <ul>
         <li><strong>Track All Owned Tonies:</strong> Keep a detailed record of all the Tonies you own.</li>
