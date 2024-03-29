@@ -7,6 +7,9 @@ and here comes the clue.
 
 <b>Introducing TONIEDEX -</b> 
 <i>an app designed to help you manage your Tonies collection with ease.</i>
+
+![Untitleddesign-ezgif com-video-to-gif-converter](https://github.com/ibutanol/Fullstack-Project-Tonidex-v-0.1/assets/109903683/4771bd66-6c87-408b-879c-ef652b0b82c4)
+
 <h2>Features:</h2>
     <ul>
         <li><strong>Track All Owned Tonies:</strong> Keep a detailed record of all the Tonies you own.</li>
@@ -17,5 +20,10 @@ and here comes the clue.
         <li><i><strong>More Features Coming Soon:</strong> Stay tuned for additional features to enhance your Tonies experience.</i></li>
     </ul>
 
+# Disclaimer: Projektzweck und Nutzungshinweis
 
+Dieses Projekt wurde mit dem Ziel erstellt, meine Fähigkeiten und Kenntnisse als Bewerber für zukünftige Arbeitsmöglichkeiten zu demonstrieren. Es ist nicht für kommerzielle Zwecke bestimmt, noch soll es auf öffentlichen Plattformen wie GitHub zur Vermarktung oder Veröffentlichung bereitgestellt werden. Jegliche Ähnlichkeiten mit realen Produkten oder Dienstleistungen sind rein zufällig. Dieses Projekt dient ausschließlich zur persönlichen Demonstration und sollte nicht als offizielles Angebot oder Produkt betrachtet werden.
+
+<h3>English</h3>
+Disclaimer: Project Purpose and Usage NoticeThis project was created with the aim of showcasing my skills and knowledge as an applicant for future job opportunities. It is not intended for commercial purposes, nor should it be made available for marketing or publication on public platforms such as GitHub. Any similarities to real products or services are purely coincidental. This project is solely for personal demonstration and should not be considered an official offer or product.
 
