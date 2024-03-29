@@ -37,3 +37,4 @@ cards.forEach((card) => {
     card.style.filter = "brightness(1)";
   });
 });
+
