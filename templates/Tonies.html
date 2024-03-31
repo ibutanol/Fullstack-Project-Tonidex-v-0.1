@@ -13,9 +13,9 @@
             <div class="karte">
                 <!--<div class="title"><h3>{{i["title"]}}</h3></div>-->
                 <div class="buttons">    
-                    <button class="buybutton" role="button"></button>
-                    <button class="greybutton" role="button"></button>
-                    <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="wishlistbutton" role="button">Wishlist</a>
+                    <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="buybutton" role="button">&nbsp;</a>
+                    <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="greybutton" role="button">&nbsp;</a>
+                    <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="wishlistbutton" role="button">&nbsp;</a>
                     <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="infobutton" title="Info">&#8505;</a>
                 </div>
                 <div class="figure"><h4>{{i["figure"]}}</h4></div>

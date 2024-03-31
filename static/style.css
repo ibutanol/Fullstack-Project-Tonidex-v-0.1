@@ -73,12 +73,16 @@ border-radius: 100px;
 height: 15px;
 }
 .wishlistbutton{
+  display: inline-block;
   background-color: rgb(156, 192, 206);
   border-radius: 100px;
-  height: 15px; 
+  height: 15px;
+  width: 15px;
+  text-decoration: none;
 
 }
 .greybutton{
+  display: inline-block;
   background-color: rgb(247, 139, 139);
   border-radius: 100px;
   height: 15px;
