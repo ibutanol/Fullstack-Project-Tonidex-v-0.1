@@ -20,7 +20,7 @@ body {
 }
 
 .karte {
-  background: #f8f1ec;
+  background: #f9f3ed;
   border-radius: 20px;
   margin: 5px;
   align-items: center;
@@ -32,7 +32,7 @@ body {
 
 .figure {
   display: flex;
-  background: #f8f1ec;
+  background: #f9f3ed;
   justify-content: center;
 
   max-width: 100%; 
@@ -68,9 +68,13 @@ body {
 
 */
 .buybutton {
-background-color: rgb(156, 206, 156);
-border-radius: 100px;
-height: 15px;
+  display: inline-block;
+  background-color: rgb(156, 206, 156);
+  border-radius: 100px;
+  height: 15px;
+  width: 15px;
+  text-decoration: none;
+
 }
 .wishlistbutton{
   display: inline-block;
@@ -86,6 +90,8 @@ height: 15px;
   background-color: rgb(247, 139, 139);
   border-radius: 100px;
   height: 15px;
+  width: 15px;
+  text-decoration: none;
 
 }
 
@@ -94,6 +100,7 @@ height: 15px;
   padding-left:35%;
   padding-top: 5px;
   gap: 10px;
+
 }
 
 .infobutton {
