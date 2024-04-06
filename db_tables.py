@@ -33,6 +33,27 @@ class Titles(base):
     tonie_id = Column("tonie_id", Integer, ForeignKey("Tonies.tonie_id"))
     tonie = relationship("Tonies",back_populates="titles")
 
+class Wunschliste(base):
+    __tablename__ = "Wunschliste"
+
+    wishlist_id = Column("wishlist_id", Integer, primary_key=True, autoincrement=True)
+    tonie_id = Column("tonie_id", Integer, ForeignKey("Tonies.tonie_id"))
+    user_id = Column("user_id", Integer, ForeignKey("User.user_id"))
+    user = relationship("User",back_populates="wishlist")
+
+class User(base):
+    __tablename__ = "User"
+
+    user_id = Column("user_id", Integer, primary_key=True, autoincrement=True)
+    when = Column("Wann", String(50), nullable=False)
+    namen = Column("Name", String(50), nullable=False)
+    wishlist_id = Column("wishlist_id", Integer, ForeignKey("Wunschliste.whishlist_id"))
+    wishlist = relationship("Wunschliste")
+
+                                                    
+
+
+
 if __name__ == "__main__":
     base.metadata.create_all(bind=engine)        
 
