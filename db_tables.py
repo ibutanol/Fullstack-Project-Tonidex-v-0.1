@@ -42,14 +42,11 @@ class Wunschliste(base):
     user = relationship("User",back_populates="wishlist")
 
 class User(base):
-    __tablename__ = "User"
+    __tablename__ = 'users'
 
-    user_id = Column("user_id", Integer, primary_key=True, autoincrement=True)
-    when = Column("Wann", String(50), nullable=False)
-    namen = Column("Name", String(50), nullable=False)
-    wishlist_id = Column("wishlist_id", Integer, ForeignKey("Wunschliste.whishlist_id"))
-    wishlist = relationship("Wunschliste")
-
+    user_id = Column(Integer, primary_key=True)
+    username = Column(String, nullable=False, unique=True)
+    password = Column(String, nullable=False)
                                                     
 
 
