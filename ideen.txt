@@ -3,3 +3,7 @@ nehmen wo man die einzelnen Tonies platziert wie in einem Kinderzimmer
 benoetige adminrechte fuer diverse button zbs besitzbutton und keinbedarf button 
 die restlichen button sollten die bekannten nutzen koennen wischlistbutton+uebetragung von meta daten wer drauf geklickt hat mit namen
  
+
+bei jedem Tonie sollte es ein Pfeilsymbol geben um zum nächsten blättern zu können. links /rechts
+
+als Buch darstellen wo die Seiten greifbar sind und dynamisch
