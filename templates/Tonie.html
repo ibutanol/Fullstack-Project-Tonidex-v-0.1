@@ -22,5 +22,16 @@
     <div class="runtime"><p>{{ Jsondic[0].runtime }}</p></div>
 
     <div class="image"><img src="{{ Jsondic[0].image }}"></div>
+    <div class="navigation">
+        {% if prev_tonie %}
+            <a href="{{ url_for('get_tonie', tonie_id=prev_tonie.tonie_id) }}" class="arrow">&#8592; Previous</a>
+        {% endif %}
+        
+        {% if next_tonie %}
+            <a href="{{ url_for('get_tonie', tonie_id=next_tonie.tonie_id) }}" class="arrow">Next &#8594;</a>
+        {% endif %}
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
