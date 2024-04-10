@@ -11,3 +11,6 @@ als Buch darstellen wo die Seiten greifbar sind und dynamisch(verworfen)
 neue idee die Tonies werden angeklickt und es öffnet sich in der bestehenden Webpage ein zusätzliche Wenpage(karte) mit den details und den buttons  und kreuz zum schlissen dieser karte
 
 °placeholdertext im Anmeldefenster
+°ribbon on click für Besitz 
+°filter funktion lieder/geschichten
+°
