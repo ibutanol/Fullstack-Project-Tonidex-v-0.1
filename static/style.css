@@ -172,3 +172,13 @@ body {
 .arrow:hover {
   color: #0056b3;
 }
+
+.navigation .arrow {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.navigation .arrow:hover {
+  color: #0056b3;
+}
