@@ -13,4 +13,4 @@ neue idee die Tonies werden angeklickt und es öffnet sich in der bestehenden We
 °placeholdertext im Anmeldefenster
 °ribbon on click für Besitz 
 °filter funktion lieder/geschichten
-°
+°Snackbar funktion bei reservieren der Tonies
