@@ -32,24 +32,7 @@ class Titles(base):
     titles = Column("title", String, nullable=True)
     tonie_id = Column("tonie_id", Integer, ForeignKey("Tonies.tonie_id"))
     tonie = relationship("Tonies",back_populates="titles")
-
-class Wunschliste(base):
-    __tablename__ = "Wunschliste"
-
-    wishlist_id = Column("wishlist_id", Integer, primary_key=True, autoincrement=True)
-    tonie_id = Column("tonie_id", Integer, ForeignKey("Tonies.tonie_id"))
-    user_id = Column("user_id", Integer, ForeignKey("User.user_id"))
-    user = relationship("User",back_populates="wishlist")
-
-class User(base):
-    __tablename__ = 'users'
-
-    user_id = Column(Integer, primary_key=True)
-    username = Column(String, nullable=False, unique=True)
-    password = Column(String, nullable=False)
-                                                    
-
-
+  
 
 if __name__ == "__main__":
     base.metadata.create_all(bind=engine)        
