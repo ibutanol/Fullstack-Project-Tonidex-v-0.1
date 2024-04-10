@@ -157,3 +157,18 @@ body {
   white-space: nowrap;
 }
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.arrow {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.arrow:hover {
+  color: #0056b3;
+}
