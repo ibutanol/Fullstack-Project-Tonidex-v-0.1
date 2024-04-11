@@ -26,12 +26,6 @@
             </div>
         </div>
         <script src="{{ url_for('static', filename='script.js') }}"></script>
-        <script>
-            function toggleRibbon() {
-                var ribbon = document.getElementById('ribbon');
-                ribbon.style.display = (ribbon.style.display === 'none') ? 'block' : 'none';
-            }
-        </script>
     {%endfor%}
 </body>
 </html>
