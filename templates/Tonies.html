@@ -17,7 +17,7 @@
                 <!--<div class="title"><h3>{{i["title"]}}</h3></div>-->
                 <div class="buttons">    
                     <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="buybutton" role="button">&nbsp;</a>
-                    <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="greybutton" role="button">&nbsp;</a>
+                    <a class="greybutton" role="button" onclick="toggleRibbon()">&nbsp;</a>
                     <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="wishlistbutton" role="button">&nbsp;</a>
                     <a href="{{ url_for('get_tonie', tonie_id=i.tonie_id) }}" class="infobutton" title="Info">&#8505;</a>
                 </div>
@@ -26,6 +26,12 @@
             </div>
         </div>
         <script src="{{ url_for('static', filename='script.js') }}"></script>
+        <script>
+            function toggleRibbon() {
+                var ribbon = document.getElementById('ribbon');
+                ribbon.style.display = (ribbon.style.display === 'none') ? 'block' : 'none';
+            }
+        </script>
     {%endfor%}
 </body>
 </html>
