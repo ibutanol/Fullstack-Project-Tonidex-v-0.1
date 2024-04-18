@@ -39,7 +39,9 @@ cards.forEach((card) => {
 });
 
 
+
 function toggleRibbon() {
     var ribbon = document.getElementById('ribbon');
     ribbon.style.display = (ribbon.style.display === 'none') ? 'block' : 'none';
+    console.log('Button clicked!'); // Testmeldung für Klick
 }
