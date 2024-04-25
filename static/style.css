@@ -13,10 +13,18 @@
   display: flex;
   align-content: center;
   background-color: rgb(234, 174, 182);
+  align-items: center;
+  border-radius: 5px;
+  margin:50px;
+
 }
 
 h1 {
+  display: flex;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  background-color: blanchedalmond;
+  align-items: center;
+  align-content: center;
 }
 .tonies {
   display: flex;
