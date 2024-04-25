@@ -1,4 +1,4 @@
-.body {
+.dody {
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -11,7 +11,12 @@
 }
 .headerbar {
   display: flex;
+  align-content: center;
+  background-color: rgb(234, 174, 182);
+}
 
+h1 {
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 .tonies {
   display: flex;
