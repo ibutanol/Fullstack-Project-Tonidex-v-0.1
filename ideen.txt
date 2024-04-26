@@ -17,3 +17,5 @@ neue idee die Tonies werden angeklickt und es öffnet sich in der bestehenden We
 ° Fullscreen Video fallende Tonies
 °overlay effekt auf Tonies die nicht    zu kaufen sind weil kein Bedarf herscht
 °sticky funktion 
+
+hover effect entfernen und stattdessen mod

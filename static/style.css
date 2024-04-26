@@ -1,3 +1,9 @@
+body{
+  display: flex;
+  flex-direction: column;
+
+}
+
 .dody {
   display: flex;
   min-height: 100vh;
@@ -9,23 +15,21 @@
   margin-left: 200px;
   margin-right: 200px;
 }
-.headerbar {
-  display: flex;
-  align-content: center;
-  background-color: rgb(234, 174, 182);
-  align-items: center;
-  border-radius: 5px;
-  margin:50px;
-
-}
 
 h1 {
   display: flex;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   background-color: blanchedalmond;
-  align-items: center;
-  align-content: center;
 }
+.headerbar {
+  display: flex;
+  background-color: rgb(234, 174, 182);
+  border-radius: 5px;
+  margin:50px;
+  text-align: center;
+
+}
+
 .tonies {
   display: flex;
   gap: 20px;
