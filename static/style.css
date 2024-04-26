@@ -18,15 +18,17 @@ body{
 
 h1 {
   display: flex;
+  font-size: 50px;
   font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   background-color: blanchedalmond;
+  
 }
 .headerbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(234, 174, 182);
   border-radius: 5px;
-  margin:50px;
-  text-align: center;
 
 }
 
